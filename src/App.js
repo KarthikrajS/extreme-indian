@@ -5,7 +5,7 @@ import {Canvas,useFrame} from 'react-three-fiber';
 import {softShadows,MeshWobbleMaterial,OrbitControls} from 'drei';
 import {useSpring, a} from 'react-spring/three'
 
-// softShadows();
+ softShadows();
 
 const SpinningMesh =({position,args,color,speed})=>{
     const mesh=useRef(null);
